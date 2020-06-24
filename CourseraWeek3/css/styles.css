@@ -1,0 +1,61 @@
+#header-nav {
+	background-color: #004569;
+	border: 0;
+	border-radius: 0;
+}
+
+.navbar-brand a:hover ,.navbar-brand a:focus {
+	text-decoration: none;
+}
+
+@media (min-width: 1200px)
+{
+	#togg-btn{
+		display: none;
+	}
+}
+.navbar-toggler{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+body{
+        width: 100%;
+        margin-left: 0px;
+	margin-right: 0px;
+        padding: 0;
+    }
+.container a h1{
+	color: white;
+	size: 2.5em;
+}
+
+.container h2{
+	font-family: 'Dancing Script', cursive;
+	margin-top: 10px;
+}
+
+.chicken p{
+	text-align: center;
+	background: black;
+	opacity: 70%;
+	color: white;
+	margin: 0px -10px 0px -10px;
+}
+
+.chicken{
+	background: #038022;
+	margin: 10px 10px 10px 10px;
+	width: 100%;
+	padding: 5px 10px 10px 10px;
+}
+#nav-list{
+	margin-top: 10px;
+
+}
+
+#nav-list a{
+	color: black;
+}
+#nav-list a:hover{
+	color: yellow;
+}
